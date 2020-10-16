@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 146400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Initializetest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login test scenario",
+        "description": "",
+        "id": "hopscotch-login-feature;login-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 158600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9572618200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "launch the url",
+            "match": {
+              "location": "LoginStepDefinition.launch_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9067800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verifies title of the login page",
+            "match": {
+              "location": "LoginStepDefinition.title_of_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4421173100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on account button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_account_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user clicks on sign in button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user enters mobile number and clicks on send otp button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user enters received OTP",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user is on home page by clicking on home page icon",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Hopscotch Login Feature",
+    "description": "",
+    "id": "hopscotch-login-feature",
+    "keyword": "Feature",
+    "uri": "D:/BDD_Workspace/HopscotchBDDFramework/src/main/java/Features/Login.feature"
+  }
+]

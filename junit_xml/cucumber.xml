@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="14.003164">
+<testcase classname="Hopscotch Login Feature" name="Login test scenario" time="14.003164">
+<skipped><![CDATA[Given launch the url........................................................passed
+When user verifies title of the login page..................................passed
+Then user clicks on account button..........................................passed
+Then user clicks on sign in button..........................................undefined
+Then user enters mobile number and clicks on send otp button................undefined
+Then user enters received OTP...............................................undefined
+And user is on home page by clicking on home page icon......................undefined
+]]></skipped>
+</testcase>
+</testsuite>
